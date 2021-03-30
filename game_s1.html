@@ -16,33 +16,40 @@
 </head>
 
 <body>
-  <h2 style="text-align:center;">Scenario 1</h2>
-  <p style="text-align:center;">Oh no! You're out for a walk and just realized you forgot your lunch! Luckily, you recognize a couple of the plants that grow around here.
-    Let's see...what are they useful for? Oh! You remember:</p>
-  <p style="text-align:center;">
-    <b>American Spikenard:</b> you can eat the berries raw or cooked; the root can treat asthma and burns, and can also be a substitute for sarsaparilla in homemade root beer.<br>
-    <b>Blue Cohosh:</b> if you remove the berry and roast the seed inside, it is a coffee substitute; some Native American women have also used a tincture of the root as an
-    aid in childbirth.</p>
-  <p style="text-align:center;">Go find these plants by looking at the signs you see in the garden beds. Take a look at which berries are growing on which plant, and if the
-    berries aren't out yet, check out the paper guide by the entrance to the garden. Once you know what these two plants look like, look at the options below. Which of these
-    berries should you pick for your woodland lunch?</p>
+  
+<h2 style="text-align:center;">Scenario 1</h2>
+  
+<p style="text-align:center;">Oh no! You're out for a walk and just realized you forgot your lunch! Luckily, you recognize a couple of the plants that grow around here.
+Let's see...what are they useful for? Oh! You remember:</p>
+  
+<p style="text-align:center;">
+  <b>American Spikenard:</b> you can eat the berries raw or cooked; the root can treat asthma and burns, and can also be a substitute for sarsaparilla in homemade root beer.<br>
+  <b>Blue Cohosh:</b> if you remove the poisonous berry and roast the seed inside, it is a coffee substitute; some Native American women have also used a tincture of the root
+    as an aid in childbirth.
+</p>
+  
+<p style="text-align:center;">Go find these plants by looking at the signs you see in the garden beds. Take a look at which berries are growing on which plant, and if the
+berries aren't out yet, check out the paper guide by the entrance to the garden. Once you know what these two plants look like, look at the options below. Which of these
+berries should you pick for your woodland lunch?</p>
 
-  <a href="NPIG_s1=false.html">
-  <img src="bluecohosh.png" alt="Blue Cohosh berries"
-    style="width:401px;height:300px;
-    border:5px solid #000000" class="center"></a><br>
-  <a href="NPIG_s1=true.html">
-  <img src="americanspikenard.png" alt="American Spikenard berries"
-    style="width:401px;height:300px;
-    border:5px solid #000000" class="center"></a>
+<button type="button" onclick="document.getElementById('verifyfalse').style.disply='block'">
+  <img src="bluecohosh.png" alt="Blue Cohosh berries" style="width:401px;height:300px; border:5px solid #000000" class="center"><br>
+  </button>
+<button type="button" onclick="document.getElementById('verifytrue').style.disply='block'">
+  <img src="americanspikenard.png" alt="American Spikenard berries" style="width:401px;height:300px; border:5px solid #000000" class="center">
+  </button>
+<p></p>
+  
+<p id="verifyfalse" style="display:none">Not quite! Those are Blue Cohosh berries, which are poisonous. Try again.</p>
+<p id="verifytrue" style="display:none">That's correct! You picked American Spikenard, which has edible berries.</p>
 
-  <p></p>
-  <p></p>
-  <p style="text-align:center;">
-    <a href="game_home.html" target="_self">
-      <font color="LightSeaGreen">
-      Return to Home
-      </font></a></p>
+<p></p>
+<p></p>
+<p style="text-align:center;"><a href="game_s2.html" target="_self"><font color="DarkOrange">
+      Next Scenario (not set up yet)</font></a></p>
+<p style="text-align:center;"><a href="game_home.html" target="_self"><font color="LightSeaGreen">
+      Return to Home</font></a></p>
+  
 </body>
 
 </html>
